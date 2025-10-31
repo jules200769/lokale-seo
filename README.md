@@ -23,8 +23,8 @@ React website voor lokale SEO en Google Maps optimalisatie diensten.
 
 1. Clone het repository:
 ```bash
-git clone https://github.com/jouw-username/jouw-repo-naam.git
-cd jouw-repo-naam
+git clone https://github.com/jules200769/lokale-seo.git
+cd lokale-seo
 ```
 
 2. Installeer dependencies:
@@ -32,7 +32,7 @@ cd jouw-repo-naam
 npm install
 ```
 
-3. Maak een `.env.local` bestand aan (zie `.env.example`):
+3. Maak een `.env.local` bestand aan:
 ```env
 VITE_SUPABASE_URL=your_supabase_url_here
 VITE_SUPABASE_ANON_KEY=your_supabase_anon_key_here
@@ -67,8 +67,6 @@ De website is nu beschikbaar op `http://localhost:3000`
 
 ## Deployment
 
-Zie `GITHUB_UPLOAD_GUIDE.md` voor deployment instructies.
-
 Voor hosting op mijndomein.nl:
 1. Run `npm run build`
 2. Upload alle bestanden uit de `out/` folder naar je hosting
@@ -82,4 +80,3 @@ Zie `SUPABASE_SETUP.md` voor Supabase configuratie instructies.
 ## License
 
 Private project
-
